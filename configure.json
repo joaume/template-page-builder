@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "title": "",
+    "subtitle": "",
+    "backgroundImage": ""
+  },
+  "tokenomics": {
+    "totalSupply": "",
+    "distribution": {
+      "team": "",
+      "advisors": "",
+      "publicSale": "",
+      "privateSale": "",
+      "liquidity": "",
+      "ecosystem": ""
+    }
+  },
+  "socials": {
+    "twitter": "",
+    "telegram": "",
+    "discord": "",
+    "medium": "",
+    "github": ""
+  },
+  "theme": {
+    "primaryFont": "",
+    "secondaryFont": "",
+    "backgroundColor": "",
+    "buttonColor": ""
+  },
+  "founders": [
+    {
+      "name": "",
+      "role": "",
+      "bio": "",
+      "image": ""
+    }
+  ],
+  "circulatingSupply": {
+    "currentSupply": "",
+    "maxSupply": ""
+  },
+  "mainMascottImage": {
+    "url": "",
+    "altText": ""
+  },
+  "themeSettings": {
+    "fontColor": "",
+    "fontWeight": "",
+    "primaryColor": "",
+    "secondaryColor": "",
+    "highlights": ""
+  }
+}
