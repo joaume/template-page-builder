@@ -4,8 +4,8 @@ const AboutSection = () => {
   return (
     <section
       id="about-section"
-      className="relative h-[80vh] w-[100vw] flex flex-col items-center justify-center bg-yellow-200 p-8 text-black font-bold">
-      <div className="grid grid-cols-2 flex-wrap">
+      className="relative h-[80vh] w-[100vw] self-center items-center justify-center bg-yellow-200 p-8 text-black font-bold">
+      <div className="grid grid-cols-2 flex-wrap max-w-[1440px]">
         <div id="Title-division">
           <div
             id="text-container "

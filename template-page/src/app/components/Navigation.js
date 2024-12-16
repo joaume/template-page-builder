@@ -10,11 +10,12 @@ const Wrapper = ({ children }) => {
       <style jsx>{`
         .wrapper {
           justify-self: center;
+          width: 100%;
           display: flex;
           justify-content: space-around;
-          width: 100%;
           align-items: center;
           padding: 10px 20px;
+          postiion: sticky;
         }
         .imgdiv img {
           height: 40px;
@@ -57,8 +58,8 @@ const ImgDiv = () => {
       <img
         src="/sosig.png"
         alt="Logo"
-        width={"30px"}
-        height={"30px"}
+        width={"100px"}
+        height={"auto"}
       />
     </div>
   );
@@ -116,7 +117,6 @@ const Navigation = () => {
   return (
     <Wrapper>
       <ImgDiv />
-      <DynamicLinks sections={directory} />
       <SocialsSection />
     </Wrapper>
   );

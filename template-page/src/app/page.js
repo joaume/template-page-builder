@@ -7,13 +7,17 @@ import SocialsSection from "./components/SocialsSection";
 
 export default function Home() {
   return (
-    <div
-      id="page"
-      className=" bg-yellow-50 content-center text-center">
-      <Navigation />
-      <HeroSection />
-      <AboutSection />
-      <TokenSupplySection />
-    </div>
+    <>
+      <div
+        id="page"
+        className=" flex justify-center bg-yellow-50 content-center text-center">
+        <div className="inline">
+          <Navigation />
+          <HeroSection />
+          <AboutSection />
+          <TokenSupplySection />
+        </div>
+      </div>
+    </>
   );
 }
